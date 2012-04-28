@@ -1,3 +1,7 @@
+
+Will be held Tuesday, May 15 13:00 - 19:00 at the location of Chefconf, room location TBA
+
+
 Requirements
 ===========
 
@@ -9,8 +13,11 @@ Requirements
 * focus - testing a cookbook thoroughly
 * prizes -- t-shirts sufficient
     * front: "I stop at green lights" back "Infrastructure _is_ code, test accordingly"
-* judges -- too much
 * food and beverages -- unnecessary, as there is party to follow
+
+Ideas
+=====
+
 * Tasks - test a cookbook (will it be ready?) in every possible way
     * application cookbook - but which part?
     * database cookbook?

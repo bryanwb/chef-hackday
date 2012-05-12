@@ -27,7 +27,7 @@ Ideas
     * Quick intro, who I am (BryanWB) how little I know
     * Why this is important, esp. to making cookbooks maintainable
     * The holy grail, travis-ci integration, test a pull request b4
-      you accept it
+    you accept it
     * gauge participant's skill levels
       * Who has used Chef?
       * Who has used ruby?
@@ -39,17 +39,26 @@ Ideas
       * Vagrant
       * toft
       * foodcritic
+      * The missing tool, KVM wrapper that use Libvirt interface
+    * Who is working on this in the Chef community?
+      * David Calavera
+      * SNS 
+      * 
+    * explain how current approaches use chef_handler to execute at
+      end of chef-run, then execute tests at end 
+    * Talk briefly about Aruba (does something similar exist for minitest?)
     * Have atomic-penguin talk about gitlab cookbook and introduce
       parts of the cookbook
-    * 
+    * Talk about how we could use outside-in testing w/ gitlab
 * Break into groups for 3 hours, after 3 hours make people switch
   groups. Ask who can lead the respective groups
-    * Cucumber
-    * Minitest 
-    * Vagrant
-    * toft
+  * Cucumber
+  * Minitest 
+  * Vagrant
+  * toft
     * Chefspec
-* When switch happens, team nominates one or several people to debrief
+* When switch happens, team nominates one or several people to stay
+  behind and debrief
   n00bs
 * Wrap-up - Someone from each group shows off their progress and
   describe challenges, will all be documented in wiki

@@ -1,5 +1,5 @@
 
-Will be held Tuesday, May 15 13:00 - 19:00 at the location of Chefconf, room location TBA
+Will be held Tuesday, May 15 13:00 - 18:00 in the Irvine room
 
 
 Requirements
@@ -10,56 +10,44 @@ Requirements
     * two white boards w/ markers
     * lots of power strips
 * common code repository?
+* sticky notes
 * focus - testing a cookbook thoroughly
 
 Ideas
 =====
 
-* Task - add tests to gitlab cookbook make sure it runs on 3 platforms
-    * add outside in tests w/ cucumber
-    * add tests w/ minitest
-    * add chefspec tests
-    * test using toft
-    * can we extend foodcritic or otherwise do anything special w/ foodcritic?
-* test on centos 5,6 Ubuntu 10.10, 11.04, 11.10, 12.10
-* bonus points for freebsd, openbsd, arch linux
-* Structure
-    * Quick intro, who I am (BryanWB) how little I know
-    * Why this is important, esp. to making cookbooks maintainable
-    * The holy grail, travis-ci integration, test a pull request b4
+Organize like and unconference
+
+* 10 minute introduction
+  * Quick intro, who I am (BryanWB) how little I know, who else is
+  here that is an expert on testing and Ruby - SNS, fnichol
+  * Why this is important, esp. to making cookbooks maintainable
+  * The holy grail, travis-ci integration, test a pull request b4
     you accept it
-    * gauge participant's skill levels
-      * Who has used Chef?
-      * Who has used ruby?
-      * who has done testing w/ ruby? minitest? cucumber?
-    * Talk about 6 different tools
-      * Cucumber
-      * Minitest 
-      * Chefspec
-      * Vagrant
-      * toft
-      * foodcritic
-      * The missing tool, KVM wrapper that use Libvirt interface
-    * Who is working on this in the Chef community?
-      * David Calavera
-      * SNS 
-      * 
-    * explain how current approaches use chef_handler to execute at
-      end of chef-run, then execute tests at end 
-    * Talk briefly about Aruba (does something similar exist for minitest?)
-    * Have atomic-penguin talk about gitlab cookbook and introduce
-      parts of the cookbook
-    * Talk about how we could use outside-in testing w/ gitlab
-* Break into groups for 3 hours, after 3 hours make people switch
-  groups. Ask who can lead the respective groups
-  * Cucumber
-  * Minitest 
-  * Vagrant
-  * toft
+  * gauge participant's skill levels
+    * Who has used Chef?
+    * Who has used ruby?
+    * who has done testing w/ ruby? minitest? cucumber?
+  * Talk about 6 different tools
+    * Cucumber
+    * Minitest 
     * Chefspec
-* When switch happens, team nominates one or several people to stay
-  behind and debrief
-  n00bs
+    * Vagrant
+    * toft
+    * foodcritic
+    * The missing tool, KVM wrapper that use Libvirt interface
+* Who is working on this in the Chef community?
+    * David Calavera
+    * SNS 
+    * Andrew Crump
+    * BTM
+* Unconference style, have people write up topics that they want to
+  work on
+* after 10 mins, have people vote by marking on the ideas they like
+* Explain Kanban board and WIP
+* Let people split up into groups
+* Fishbowl for those who want more detail ( have to learn how a good
+  fishbowl works )
 * Wrap-up - Someone from each group shows off their progress and
-  describe challenges, will all be documented in wiki
+  describe challenges, will may be documented in wiki
 
